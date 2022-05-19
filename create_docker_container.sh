@@ -16,13 +16,13 @@ export LANG=C.UTF-8
 export LC_ALL=C.UTF-8
 export DEBIAN_FRONTEND=noninteractive
  
-   echo "# installing basic needs" \
+   echo "# installing bear necessities" \
 && apt update \
 && apt install -y --no-install-recommends \
         build-essential \
         git \
         make \
-        openssh \
+        openssh-client \
         python3 \
         sudo \
         vim \
